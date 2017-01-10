@@ -18,7 +18,7 @@
       }
    }
 </style>
-      <a class="alink" href = "<?php echo base_url(); ?>complaint/add_view">Add</a>
+      <a class="alink" href = "<?php echo base_url(); ?>index.php/complaint/add_view">Add</a>
 		
       <table border = "1"> 
          <?php 

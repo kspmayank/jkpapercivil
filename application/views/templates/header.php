@@ -131,12 +131,12 @@
 			<ul class="rightul">
 				<?php if ($this->session->userdata('name')) { ?>
 					<li><a href="<?php echo base_url(); ?>">Home</a></li>
-					<li><a href="<?php echo base_url(); ?>/complaint/add_view">Add Complaint</a></li>
+					<li><a href="<?php echo base_url(); ?>index.php/complaint/add_view">Add Complaint</a></li>
 					<li><a href="#"><?php echo "Hi ".$this->session->userdata('name'); ?></a></li>
-					<li><a href="<?php echo base_url(); ?>Sessions_controller/unset_session_data">Logout</a></li>
+					<li><a href="<?php echo base_url(); ?>index.php/Sessions_controller/unset_session_data">Logout</a></li>
 				<?php }else{ ?>
-					<li><a href="<?php echo base_url(); ?>Sessions_controller/">Login</a></li>			
-					<li><a href="<?php echo base_url(); ?>Sessions_controller/add_user_view">Signup</a></li>			
+					<li><a href="<?php echo base_url(); ?>index.php/Sessions_controller/">Login</a></li>			
+					<li><a href="<?php echo base_url(); ?>index.php/Sessions_controller/add_user_view">Signup</a></li>			
 				<?php } ?>					
 			</ul>
 		</div>

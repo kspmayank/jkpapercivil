@@ -115,7 +115,7 @@
 				<tr>
 					<td>
 					<span><strong>Department : </strong></span>
-					<p style="font-size:11px; margin:0;"><a href="<?php echo base_url(); ?>/department">View all Departments</a></p>
+					<p style="font-size:11px; margin:0;"><a href="<?php echo base_url(); ?>index.php/department">View all Departments</a></p>
 					</td>
 					<td>
 					<?php 
@@ -143,7 +143,7 @@
 				<tr>
 					<td>
 					<span><strong>Category : </strong></span>
-					<p style="font-size:11px; margin:0;"><a href="<?php echo base_url(); ?>/category">View all Categories</a></p>
+					<p style="font-size:11px; margin:0;"><a href="<?php echo base_url(); ?>index.php/category">View all Categories</a></p>
 					</td>
 					<td>
 					<!-- <select id="category">
