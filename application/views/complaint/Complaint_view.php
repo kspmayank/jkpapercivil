@@ -36,7 +36,7 @@
                echo "<th>Status</th>"; 
                echo "<th class='edit'>Edit</th>"; 
                echo "<th class='delete'>Delete</th>"; 
-            echo "<tr>";
+            echo "</tr>";
 
             $complaints_r = array_reverse($complaints);
 				$avg_resp = 0;
@@ -89,7 +89,7 @@
                      .$complaint->id."'>Edit</a></td>"; 
                   echo "<td class='delete'><a href = '".base_url()."index.php/complaint/delete/"
                      .$complaint->id."'>Delete</a></td>"; 
-               echo "<tr>"; 
+               echo "</tr>"; 
             } 
          ?>
       </table> 
